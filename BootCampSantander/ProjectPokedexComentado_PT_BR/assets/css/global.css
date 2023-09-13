@@ -1,0 +1,26 @@
+*{
+    font-family: 'Roboto',sans-serif;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+/* configurando o conteudo da tela no centro com as propriedades width e height*/
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+
+/* configuração do conteudo para teala peq. É aconselhavel começar a configurar css por aqui */
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
