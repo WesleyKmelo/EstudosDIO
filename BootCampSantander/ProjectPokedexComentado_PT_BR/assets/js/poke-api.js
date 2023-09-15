@@ -37,7 +37,8 @@ pokeApi.getPokemons = (offset = 0, limit = 5) => {
         .then((pokemonsDetails) => pokemonsDetails)
 }
 
-
+//o argumento que vai nessa função está vindo do parametro que foi passado la no loop map, onde essa função 
+//foi chamada
 pokeApi.getPokemonDetail = (pokemon) => {
     return fetch(pokemon.url)
         .then((response) => response.json())
