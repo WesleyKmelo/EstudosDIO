@@ -36,3 +36,5 @@ A função do `defer` é justamente apontar que aquele código só poderá ser e
 ```js
 <card></card>
 ```
+
+O quwe vai aparecer no index após renderizar é um h1 com o texto "Hello"
