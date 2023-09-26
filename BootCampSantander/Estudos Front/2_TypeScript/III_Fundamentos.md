@@ -46,7 +46,7 @@ Alem disso é possivel criar arrays Multitype que possibilita criar objetos com 
 
 #### Tuplas
 
-Mas essa prática não é tão recomendada. Por isso existe uma forma que inclusive é melhor pois obriga o usuário a seguir o modelo criado que é a ***Tupla***.
+Mas essa prática não é tão recomendada. Por isso existe uma forma que inclusive é melhor, pois obriga o usuário a seguir o modelo criado que é a ***Tupla***.
 
 Basicamente, a tupla é um array que deve seguir o tipo e a ordem dos tipos que foram criados.
 

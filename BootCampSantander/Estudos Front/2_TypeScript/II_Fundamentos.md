@@ -42,7 +42,7 @@ no terminal para executar a transpilação dos arquivos. E depois
 
 Existe ainda uma forma de automatizar esse processo criando um script de execução no arquivo ***package.json***
 
-Na seção *"scripts"* do arquivo ***package.json*** adiciona uma linha chamada , por exemplo, "start" e como parâmetros adiciona os comandos que transpila seguidos de *&&* e o comando que executa :
+Na seção *"scripts"* do arquivo ***package.json*** adiciona uma linha chamada , por exemplo, "start" e como parâmetros adiciona os comandos que transpila seguidos de *&&* e o comando que executa:
 
 ```js
 "scripts":{

@@ -49,4 +49,4 @@ interface obj1{
 
 A diferença principal é que o ***type*** é utilizado quando se refere apenas a objetos que precisamos ser de um tipo especifico. Enquanto que a ***interface*** é usada quando estamos trabalhando com classes em Javascript.
 
-Ambas as formas podem ser usadas, mas o que é mais utilzado são as interfaces principalmente quando utilizadas em classes.
+Ambas as formas podem ser usadas, mas o que é mais utilzado são as interfaces principalmente quando utilizadas em classes..
