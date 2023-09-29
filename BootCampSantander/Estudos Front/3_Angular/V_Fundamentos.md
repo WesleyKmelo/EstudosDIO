@@ -20,3 +20,20 @@ O *Angular CLI* é um prompt onde se digitam os comandos conforme constam na doc
 * digite `cd nomeDoApp`  para entrar na pasta e em seguida `code .` para abrir a aplicação dentro do VSCode.
 * Após todas alterações necessárias basta digitar o comando `ng serve` no terminal, lembrando que o terminal tem que estar apontando a pasta onde está os arquivos da aplicação. Após rodar o comando o **Terminal** vai exibir uma url pra ser acessada e exibir a aplicação localmente.
 
+## Diretivas
+Diretiva são códigos que o Angular usa pra manipular e alterar a DOM dinâmicamente
+
+### Diretivas de atributo
+Alteram a aparência ou comportamento de um elemento, componente ou outra diretiva
+
+* **NgClass** - Adiciona ou remove conjunto de classes CSS
+* **NgStyle** - Adiciona ou remove um conjunto de estilos ao HTML
+* **NgModel** - Adiciona vinculação de dados bidirecional a um elemento de um formulário
+
+
+### Diretivas estruturais
+Moldam ou remodelam a estrutura da DOM, adicionando ou removendo elementos na tela
+
+* **NgIf** - Condicional que verifica se modelo deve ser visualizado ou não
+NgFor - repete um elemento para cada item em uma lista
+* **NgSwitch** - Utilizado para alternar entre comportamentos alternativos
