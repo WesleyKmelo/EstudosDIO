@@ -1,0 +1,19 @@
+.label_container{
+    position: absolute;
+    right: 10px;
+    bottom: 90px;
+}
+
+.label_content > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+    height: 27px;
+    border-radius: 7px;
+    background-color: #0d0d0d;
+    color: aliceblue;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}

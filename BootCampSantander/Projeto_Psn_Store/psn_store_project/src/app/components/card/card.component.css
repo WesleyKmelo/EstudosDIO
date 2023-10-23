@@ -1,0 +1,18 @@
+.card_container{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    overflow: hidden;  /* <= essa propriedade serve pra cortar a imagem se a imagem vazar pra fora do tamanho desse container*/
+}
+
+.card_img{
+    width: 100%;
+    height: 100%;
+    transition: 0.55s;
+}
+.card_img:hover{
+    transform: scale(1.1);
+}

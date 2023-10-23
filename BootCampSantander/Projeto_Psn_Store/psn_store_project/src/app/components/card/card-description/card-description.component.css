@@ -1,0 +1,28 @@
+.description_container{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.description_title{
+    margin-bottom: 3px;
+}
+.description_pricing{
+    display: flex;
+    justify-content: space-between;
+}
+.description_pricing_game{
+    display: flex;
+}
+.description_pricing_game > span{
+    font-weight: bolder;
+    color: aqua;
+    margin-right: 5px;
+}

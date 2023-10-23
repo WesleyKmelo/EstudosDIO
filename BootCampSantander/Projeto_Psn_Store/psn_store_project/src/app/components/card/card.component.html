@@ -1,0 +1,18 @@
+<a href="" class="card_container">
+     <!--colocando entre parenteses a propriedade, torna possivel fazer um binding para
+    que o valor da propriedade possa ser passado no componente pai , que no caso é o card.component -->
+    <img             
+        class="card_img"
+        [src]= "gameCover"  
+        alt="foto Jogo"
+    >
+    <app-card-label
+         [gameLabel]="label"
+    ></app-card-label>
+
+    <app-card-description
+        [titleConsole]="titleConsole"
+        [tipoGame]="tipoGame"
+        [valorGame]="valorGame"
+    ></app-card-description>
+</a>
